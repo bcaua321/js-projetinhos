@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.none{
+  visibility: hidden;
+}
+
+.logo{
+  width: 11.0625rem;
+  margin-top: 14.375rem;
+}
+
+section#login {
+  background-color: #4E5BEE;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+section#login #formulario {
+  margin-top: 5.875rem;
+}
+
+section#login #formulario input{
+  box-sizing: border-box;
+}
+
+section#login #formulario input{ 
+  color: #f8f8f8;
+  outline: none;
+  border: 2px solid #f8f8f8;
+  font-size: 1rem;
+  display: block;
+  width: 18.75rem;
+  height: 3.125rem;
+  border-radius: 1.56rem;
+  background-color: transparent;
+}
+
+section#login #formulario input::placeholder{
+  color: #f8f8f8;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+section#login #formulario input#email{
+  background: url("../img/email.svg") no-repeat 1.25rem center;
+  padding-left: 3.625rem;
+}
+
+section#login #formulario input#senha {
+  background: url("../img/lock.svg") no-repeat 1.25rem center;
+  padding-left: 3.625rem;
+}
+
+section#login #formulario #email-span{
+  font-size: 0.9rem;
+  margin-left: 1.5rem;
+  font-weight: 400;
+}
+
+section#login #formulario input.enviar {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  background-color: #F8F8F8;
+  margin-top: 1.5rem;
+  color: #504F60;
+}
+
+a{
+  color: #f8f8f8;
+}
+
+section#login #recuperacao {
+  margin: 8rem 0 3.125rem;
+  text-align: center;
+  color: #F8F8F8;
+}
+
+section#login #recuperacao p{
+  font-weight: 400;
+}
+
+section#login #recuperacao a{
+  font-weight: 500;
+}

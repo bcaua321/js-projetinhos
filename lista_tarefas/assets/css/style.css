@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  width: 30rem;
+  background: #fff;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+
+form input {
+  width: 20rem;
+  font-size: 1rem;
+  height: 2rem;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: none;
+  border: 2px solid var(--primary-color-darker);
+  border-radius: 0.1rem;
+}
+
+form button {
+  text-transform: uppercase;
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 2rem;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+  transform: translateY(-1px);
+}
+
+#tarefas-resultado {
+  width: 19rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+#tarefas-resultado li button {
+  align-self: end;
+  outline: none;
+  width: 2rem;
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  border: none;
+
+  margin-left: 2rem;
+
+  color: white;
+  background-color: rgb(175, 20, 20);
+}
+
+ul {
+  list-style-type: none;
+}
+
+

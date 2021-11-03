@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5rem;
+}
+
+h1, p {
+  text-align: center;
+}
+
+p {
+  font-weight: 900;
+  font-size: 1.3rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: block;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Para alinhamento da section na vertical e horizontal */
+
+#flex-box {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+
+section.container {
+  box-sizing: border-box;
+  background-color: white;
+  width: 25rem;
+  height: 17rem;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+/* Alinhamento dentro do container */
+
+#alinhamento {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Formatação dos butões */
+button {
+  text-transform: capitalize;
+  display: block;
+  font-weight: 600;
+  color: white;
+  margin: 1.5rem 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: none;
+}
+
+
+button.iniciar {
+  width: 6rem;
+  background-color: rgb(148,0,211);
+  padding: 0.7rem;
+  transition: 300ms;
+}
+
+
+button.iniciar:hover {
+  transform: translateY(-1px);  
+  background-color: rgb(153,50,204);
+}
+
+button.pausar, button.zerar{
+  width: 4.5rem;
+  padding: 0.5rem;
+  transition: 500ms;
+}
+
+button.zerar {
+  background-color: rgb(124, 15, 15);
+}
+
+
+button.zerar:hover {
+  background-color: rgb(178,34,34);
+}
+
+button.pausar {
+  background-color: rgb(96, 81, 189);
+}
+
+button.pausar:hover {
+  background-color: rgb(110, 99, 180)
+}
+
+#resultado {
+  color: antiquewhite;
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.red {
+  color: red;
+}
