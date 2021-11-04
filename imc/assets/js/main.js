@@ -10,11 +10,6 @@ form.addEventListener('submit', function(event){
   const altura = Number(inputAltura.value);
 
   // The second argument is for background color of output
-  if(!peso && !altura){
-    setResultado('Dados invalidos', false);
-    return;
-  }
-
   if(!peso){
     setResultado('Peso invalido', false);
     return;
@@ -26,11 +21,11 @@ form.addEventListener('submit', function(event){
   }
 
 
-
   const imc = getImc(peso, altura);
   const imcState = getLevelResult(imc);
-  const msg = `IMC: ${imc}       ${imcState}`
-
+  const msg = `IMC: ${imc} ${imcState}`
+  
+  // The default style
   setResultado(msg, true);
 
 });
@@ -40,7 +35,7 @@ function getImc(peso, altura){
   return imc.toFixed(2);
 }
 
-// function to know how the level of IMC
+// function to know the level of IMC
 function getLevelResult(imc) {
 
   /*
@@ -78,14 +73,14 @@ function setResultado(msg, isValid){
   const resultado = document.querySelector('#resultado');
   resultado.innerHTML = '';
   const p = criaP ();
+  resultado.classList.remove("bad");
+
   if (isValid){
     // add class of style elements
-    resultado.classList.add("verde");
+    resultado.classList.add("resultado");
   } else {
     resultado.classList.add("bad");
   }
   p.innerHTML = msg;
   resultado.appendChild(p);
-  
-
 }

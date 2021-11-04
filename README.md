@@ -28,12 +28,18 @@
 - Foram feitas algumas alterações do projeto original feito pelo instrutor, foi feito uma melhor organização dos botões e também adicionado animações. O site não é responsivo.
 
 # Lista de Tarefas
-- O clássico app para fazer uma lista de afazeres. Esse pequeno projeto foi feito durante o curso um da Udemy.
+- O clássico app para fazer uma lista de afazeres. Esse pequeno projeto foi feito durante um curso da Udemy.
 
 <p align="center">
-<img src="#">
+<img src="https://user-images.githubusercontent.com/67557512/140238922-8b14434b-25b0-4563-81b2-e82217479fd9.gif">
 </p>
 
 - O intuito principal desse projeto, foi aprofundar no conceito de eventos no JS. Também o aplicativo tem a capacidade de tratar o armazenamento de dados no lado do cliente com o "localStorage", ou seja, guardar no navegador dados do cliente, como uma forma de ter uma segurança para não os perder em uma futura visita.
 
+# IMC
+- Site desenvolvido durante curso da Udemy para calcular o IMC de uma pessoa.
+
+<p align="center">
+<img src="#">
+</p>
 

@@ -14,21 +14,85 @@ body {
   padding: 0;
   background: var(--primary-color);
   font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
 }
 
 h1 {
   text-align: center;
 }
-
-p {
-  display: block;
-  box-sizing: border-box;
-  padding: 0;
+th {
   margin: 0;
+  padding: 5px;
+  text-align: start;
 }
+
+table {
+  width: 100%;
+}
+td {
+  padding: 0.1rem;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.subtitulo {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: 0.1s;
+  border-radius: 3px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+  transform: translateY(-3px);
+}
+
 
 #resultado {
-  color: antiquewhite;
-  font-weight: 500;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  padding: 0.01rem;
+  border-radius: 0.3rem;
+  color: white;
+  text-align: center;
+
 }
+.resultado {
+  background-color: rgb(128, 0, 255);
+}
+
+.bad{
+  background-color: rgb(170, 37, 37);
+}
+
