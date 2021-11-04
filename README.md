@@ -22,7 +22,7 @@
 # Timer
 - O timer foi feito durante durante um curso na Udemy, o projeto trabalha com o objeto Date.
 <p align="center">
-![timer](https://user-images.githubusercontent.com/67557512/140235704-ead25ed8-940d-4ece-9862-62b4ae12400e.gif)
+<img src="https://user-images.githubusercontent.com/67557512/140235704-ead25ed8-940d-4ece-9862-62b4ae12400e.gif">
 </p>
 
 - Foram feitas algumas alterações do projeto original feito pelo instrutor, foram adicionadas uma melhor organização dos botões e também adicionado animações. 
