@@ -40,7 +40,7 @@
 - Site desenvolvido durante curso da Udemy para calcular o IMC de uma pessoa.
 
 <p align="center">
-<img src="#">
+<img src="https://user-images.githubusercontent.com/67557512/140256070-b91d05d5-bf29-4fe1-b65c-97487f3a886b.gif">
 </p>
 
 - Além de calcular o IMC, o programa faz a validação dos dados, para ver se foi inserido realmente números em ambos os cambos.
