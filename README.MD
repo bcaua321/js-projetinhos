@@ -2,6 +2,7 @@
 <h3 align="center">Projetos feitos durante estudos de HTML, CSS e JS.</h3>
 <p align="center">
  <a href="#grab-login">Grab Login</a> •
+ <a href="#validador-de-cpf">Validador de CPF</a> • 
  <a href="#timer">Timer</a> • 
  <a href="#lista-de-tarefas">Lista de Tarefas</a> • 
  <a href="#imc">IMC</a>
@@ -12,6 +13,18 @@
 <p align="center">
 <img src="./img-read/grab/mobile.png" width="150" height="300">
 <img src="./img-read/grab/desktop.png" width="500">
+</p>
+- O site foi desenvolvido com o método mobile first e depois foi sendo adaptado para diferentes tamanhos de telas.
+
+<h4 align="center"> 
+	🚧 Em construção...  🚧
+</h4>
+
+# Validador de CPF
+- Para esse problema, foi utilizado o algoritmo do governo para fazer a validação <a href="https://dicasdeprogramacao.com.br/algoritmo-para-validar-cpf/">saiba mais</a>.
+<p align="center">
+<img src="./img-read/validador-cpf/mobile.png" width="150" height="300">
+<img src="./img-read/validador-cpf/desktop.png" width="500">
 </p>
 - O site foi desenvolvido com o método mobile first e depois foi sendo adaptado para diferentes tamanhos de telas.
 
@@ -43,5 +56,5 @@
 <img src="https://user-images.githubusercontent.com/67557512/140256070-b91d05d5-bf29-4fe1-b65c-97487f3a886b.gif">
 </p>
 
-- Além de calcular o IMC, o programa faz a validação dos dados, para ver se foi inserido realmente números em ambos os cambos.
+- Além de calcular o IMC, o programa faz a validação dos dados, para ver se foi inserido realmente números em ambos os campos.
 
