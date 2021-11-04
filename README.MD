@@ -43,3 +43,5 @@
 <img src="#">
 </p>
 
+- Além de calcular o IMC, o programa faz a validação dos dados, para ver se foi inserido realmente números em ambos os cambos.
+
