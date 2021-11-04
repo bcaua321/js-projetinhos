@@ -10,7 +10,7 @@
 # Grab Login
 - O Grab login, é um desafio da <a href="https://www.devchallenge.com.br/challenges?type=frontend">DevChallenge</a>, com objetivo de criar um layout idêntico ao fornecido, também é proposto fazer uma validação do email fornecido pelo usuário.
 <p align="center">
-<img src="./img-read/grab/mobile.png" width="180" height="300">
+<img src="./img-read/grab/mobile.png" width="130" height="300">
 <img src="./img-read/grab/desktop.png" width="500">
 </p>
 
