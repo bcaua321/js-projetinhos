@@ -16,9 +16,6 @@
 </p>
 - O site foi desenvolvido com o método mobile first e depois foi sendo adaptado para diferentes tamanhos de telas.
 
-<h4 align="center"> 
-	🚧 Em construção...  🚧
-</h4>
 
 # Validador de CPF
 - Para esse problema, foi utilizado o algoritmo do governo para fazer a validação <a href="https://dicasdeprogramacao.com.br/algoritmo-para-validar-cpf/">saiba mais</a>.
@@ -28,9 +25,6 @@
 </p>
 - O site foi desenvolvido com o método mobile first e depois foi sendo adaptado para diferentes tamanhos de telas.
 
-<h4 align="center"> 
-	🚧 Em construção...  🚧
-</h4>
 
 # Timer
 - O timer foi feito durante durante um curso na Udemy, o projeto trabalha com o objeto Date.
